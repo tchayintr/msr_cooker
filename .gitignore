@@ -1,0 +1,31 @@
+# folders
+######################
+data/*
+data/samples/*
+sample_scripts/*
+cooked/*
+
+# files
+######################
+!*.gitkeep
+!data/samples/sample_msr_training.utf8
+!data/samples/sample_msr_test_gold.utf8
+!sample_scripts/sample_cook.sh
+!cooked/cooked_msr_20210523_1441.train.shuf.seg.sl
+!cooked/cooked_msr_20210523_1441.valid.shuf.seg.sl
+!cooked/cooked_msr_20210523_1441.test.seg.sl
+
+# caches
+######################
+__pycache__/
+
+# OS generated files
+######################
+_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
