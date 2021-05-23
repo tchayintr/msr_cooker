@@ -1,13 +1,14 @@
 # folders
 ######################
 data/*
-data/samples/*
 sample_scripts/*
 cooked/*
 
 # files
 ######################
 !*.gitkeep
+!data/samples/
+!data/samples/*
 !data/samples/sample_msr_training.utf8
 !data/samples/sample_msr_test_gold.utf8
 !sample_scripts/sample_cook.sh
